@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.hibernate:hibernate-core:6.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/6.0.0-SNAPSHOT/hibernate-core-6.0.0-20160620.171243-12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/6.0.0-SNAPSHOT/hibernate-core-6.0.0-20160620.171243-12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/6.0.0-SNAPSHOT/hibernate-core-6.0.0-20160620.171243-12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,7 @@
+C:\GitHub\Jee-course\library-module\src\main\java\com\library\app\category\exception\CategoryNotFoundException.java
+C:\GitHub\Jee-course\library-module\src\main\java\com\library\app\category\repository\CategoryRepository.java
+C:\GitHub\Jee-course\library-module\src\main\java\com\library\app\category\exception\CategoryExistentException.java
+C:\GitHub\Jee-course\library-module\src\main\java\com\library\app\category\model\Category.java
+C:\GitHub\Jee-course\library-module\src\main\java\com\library\app\category\services\CategoryServices.java
+C:\GitHub\Jee-course\library-module\src\main\java\com\library\app\category\services\impl\CategoryServicesImpl.java
+C:\GitHub\Jee-course\library-module\src\main\java\com\library\app\common\exception\FieldNotValidException.java
