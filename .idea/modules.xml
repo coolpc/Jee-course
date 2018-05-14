@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/library-app.iml" filepath="$PROJECT_DIR$/library-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-ear/library-ear.iml" filepath="$PROJECT_DIR$/library-ear/library-ear.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-module/library-model.iml" filepath="$PROJECT_DIR$/library-module/library-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-resource/library-resource.iml" filepath="$PROJECT_DIR$/library-resource/library-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-resource-war/library-resource-war.iml" filepath="$PROJECT_DIR$/library-resource-war/library-resource-war.iml" />
     </modules>
   </component>
 </project>

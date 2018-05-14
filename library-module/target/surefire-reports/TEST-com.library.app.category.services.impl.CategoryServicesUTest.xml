@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.library.app.category.services.impl.CategoryServicesUTest" time="0.115" tests="15" errors="0" skipped="0" failures="0">
+<testsuite name="com.library.app.category.services.impl.CategoryServicesUTest" time="0.092" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="c:\dc\programs\jdk\jre\bin"/>
@@ -64,19 +64,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="updateCategoryWithShortName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.058"/>
-  <testcase name="updateCategoryNotFound" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.012"/>
-  <testcase name="findAllNoCategories" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.001"/>
-  <testcase name="addCategoryWithShortName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.005"/>
-  <testcase name="updateCategoryWithLongName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.006"/>
-  <testcase name="addValidCategory" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.001"/>
-  <testcase name="updateValidCategory" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
+  <testcase name="updateCategoryWithShortName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.038"/>
+  <testcase name="updateCategoryNotFound" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.015"/>
+  <testcase name="findAllNoCategories" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
+  <testcase name="addCategoryWithShortName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
+  <testcase name="updateCategoryWithLongName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
+  <testcase name="addValidCategory" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
+  <testcase name="updateValidCategory" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.016"/>
   <testcase name="findAllCategories" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
-  <testcase name="updateWithNullName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.016"/>
+  <testcase name="updateWithNullName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
   <testcase name="findCategoryById" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
-  <testcase name="addCategoryWithLongName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
-  <testcase name="addCategoryWithExistentName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
-  <testcase name="addCategoryWithNullName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.016"/>
+  <testcase name="addCategoryWithLongName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.017"/>
+  <testcase name="addCategoryWithExistentName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.004"/>
+  <testcase name="addCategoryWithNullName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0.002"/>
   <testcase name="updateCategoryWithExistentName" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
   <testcase name="findCategoryByIdNotFound" classname="com.library.app.category.services.impl.CategoryServicesUTest" time="0"/>
 </testsuite>

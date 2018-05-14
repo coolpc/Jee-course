@@ -4,6 +4,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;
 
@@ -14,10 +16,13 @@ import com.library.app.category.repository.CategoryRepository;
 import com.library.app.category.services.CategoryServices;
 import com.library.app.common.exception.FieldNotValidException;
 
+@Stateless
 public class CategoryServicesImpl implements CategoryServices {
 
+	@Inject
 	Validator validator;
 
+	@Inject
 	CategoryRepository categoryRepository;
 
 	@Override

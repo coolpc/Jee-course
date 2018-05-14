@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="library-ear" />
         <module name="library-model" />
         <module name="library-resource" />
+        <module name="library-resource-war" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="library-app" target="1.8" />
+      <module name="library-ear" target="1.8" />
       <module name="library-model" target="1.8" />
       <module name="library-resource" target="1.8" />
+      <module name="library-resource-war" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

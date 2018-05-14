@@ -2,7 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-ear" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/library-module" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/library-resource" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/library-resource-war" charset="UTF-8" />
   </component>
 </project>

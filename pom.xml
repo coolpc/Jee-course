@@ -146,5 +146,7 @@
 	<modules>
 		<module>library-module</module>
 		<module>library-resource</module>
+		<module>library-resource-war</module>
+		<module>library-ear</module>
 	</modules>
 </project>

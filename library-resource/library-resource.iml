@@ -14,6 +14,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="library-model" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.resteasy:resteasy-client:3.0.2.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.resteasy:resteasy-jaxrs:3.0.2.Final" level="project" />
