@@ -54,7 +54,7 @@ public class CategoryResourceUTest {
         final Response response = categoryResource.add(readJsonFile(getPathFileRequest(PATH_RESOURCE,
                 "newCategory.json")));
         assertThat(response.getStatus(), is(equalTo(HttpCode.VALIDATION_ERROR.getCode())));
-        //assertJsonResponseWithFile(response, "categoryAlreadyExists.json");
+        //  assertJsonResponseWithFile(response, "categoryAlreadyExists.json");
     }
 
     @Test

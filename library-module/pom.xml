@@ -52,6 +52,20 @@
           <artifactId>hibernate-jpa-2.1-api</artifactId>
           <version>RELEASE</version>
       </dependency>
+	  <!-- SQL Server -->
+	  <!--
+	  <dependency>
+		  <groupId>com.microsoft.sqlserver</groupId>
+		  <artifactId>sqljdbc4</artifactId>
+		  <version>4.0</version>
+		  <scope>provided</scope>
+	  </dependency>
+	  -->
+	  <dependency>
+		  <groupId>com.microsoft.sqlserver</groupId>
+		  <artifactId>mssql-jdbc</artifactId>
+		  <version>6.1.0.jre8</version>
+	  </dependency>
   </dependencies>
   
   

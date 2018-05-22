@@ -2,19 +2,22 @@ package com.library.app.category.repository;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
+import javax.persistence.*;
 
 import com.library.app.category.model.Category;
 
 public class CategoryRepository {
 
-	@PersistenceContext
-	EntityManager em;
+	//@PersistenceContext(unitName = "libraryPU")
+	//EntityManager em;
+	EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "libraryPU" );
+
+	EntityManager em = emfactory.createEntityManager( );
 
 	public Category add(final Category category) {
+		em.getTransaction().begin();
 		em.persist(category);
+		em.getTransaction().commit();
 		return category;
 	}
 
