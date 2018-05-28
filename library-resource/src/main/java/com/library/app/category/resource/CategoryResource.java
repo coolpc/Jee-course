@@ -20,7 +20,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.library.app.category.exception.CategoryExistentException;
 import com.library.app.category.exception.CategoryNotFoundException;
 import com.library.app.category.model.Category;
@@ -31,6 +30,7 @@ import com.library.app.common.json.JsonWriter;
 import com.library.app.common.json.OperationResultJsonWriter;
 import com.library.app.common.model.HttpCode;
 import com.library.app.common.model.OperationResult;
+import com.library.app.common.model.PaginatedData;
 import com.library.app.common.model.ResourceMessage;
 
 @Path("/categories")
@@ -129,22 +129,11 @@ public class CategoryResource {
 
 		logger.debug("Found {} categories", categories.size());
 
-		final JsonElement jsonWithPagingAndEntries = getJsonElementWithPagingAndEntries(categories);
+		final JsonElement jsonWithPagingAndEntries = JsonUtils.getJsonElementWithPagingAndEntries(
+				new PaginatedData<Category>(categories.size(), categories), categoryJsonConverter);
 
 		return Response.status(HttpCode.OK.getCode()).entity(JsonWriter.writeToString(jsonWithPagingAndEntries))
 				.build();
-	}
-
-	private JsonElement getJsonElementWithPagingAndEntries(final List<Category> categories) {
-		final JsonObject jsonWithEntriesAndPaging = new JsonObject();
-
-		final JsonObject jsonPaging = new JsonObject();
-		jsonPaging.addProperty("totalRecords", categories.size());
-
-		jsonWithEntriesAndPaging.add("paging", jsonPaging);
-		jsonWithEntriesAndPaging.add("entries", categoryJsonConverter.convertToJsonElement(categories));
-
-		return jsonWithEntriesAndPaging;
 	}
 
 }
